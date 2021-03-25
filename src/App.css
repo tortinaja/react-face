@@ -22,7 +22,7 @@ body {
   background-color: white;
 }
 
-.Input_header {
+.Input_header, .Login__header {
   background-color: #f5f6f7;
   border-bottom: 1px solid #dddfe2;
   border-radius: 2px 2px 0 0;
@@ -52,4 +52,13 @@ body {
   padding: 0;
   float: right;
   cursor: pointer;
+}
+
+.Logintest {
+  border: 1px solid hsl(216, 8%, 88%);
+  border-radius: 4px;
+  width: 600px;
+  margin: 20px auto;
+  background-color: white;
+  text-align: center;
 }

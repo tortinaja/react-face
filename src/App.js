@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './Navbar';
 import Input from './Input';
 import Post from './Post';
+import Login from './Login';
 
 let id = 1;
 
@@ -24,6 +25,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <Login />
       <Input addPost={addPost} />
       {posts.map((post)=> <Post key={post.id} id={post.id} title={post.title} deletePost={deletePost} />)}
     </div>
