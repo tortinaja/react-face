@@ -74,12 +74,12 @@ body {
   margin-top: 20px;
 }
 
-.inLeftbar1 {
-  background-color:pink;
+.inLeftbar1, .inLeftbar2, .inLeftbar3 {
+  background-color:hsl(216, 8%, 88%);
   width: 325px;
   height: 25px;
   margin-top: 10px;
   margin-left: 10px;
   text-indent: 5px;
-  padding-top: 4px;
+  padding-top: 3px;
 }
